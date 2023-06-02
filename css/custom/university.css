@@ -1,0 +1,108 @@
+body{
+    background-image: url(../../img/background_home.jpg);
+    background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+}
+.img{
+    width:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.img:hover
+{
+    opacity: 0.3;
+}
+#div-set
+{
+    margin-left: 31%;
+    width: 40%;
+    height: 400px; 
+    border: 1px inset;
+    border-radius: 10px;
+}
+#div-set-2
+{
+    margin-left: 31%;
+    width: 40%;
+    height: 150px; 
+    border: 1px inset;
+    border-radius: 10px;
+}
+
+p{
+    max-height: 2em;
+    color:black;
+    font-size: medium;
+    width: 50px;
+    overflow: hidden; /* taşanları gizle */
+    white-space: nowrap; /* alt satıra hiç inme */
+    text-overflow: ellipsis; /* eğer uzunsa üç nokta koy */
+    text-align: center;
+}
+#show-less1:target
+{
+    width: 50px;
+    overflow: hidden; /* taşanları gizle */
+    white-space: nowrap; /* alt satıra hiç inme */
+    text-overflow: ellipsis; /* eğer uzunsa üç nokta koy */
+}
+#show-more1:target
+{
+    max-height: 100%;
+    overflow:visible;
+}
+#show-less2:target
+{
+    width: 50px;
+    overflow: hidden; /* taşanları gizle */
+    white-space: nowrap; /* alt satıra hiç inme */
+    text-overflow: ellipsis; /* eğer uzunsa üç nokta koy */
+}
+#show-more2:target
+{
+    overflow:visible;
+}
+#show-less3:target
+{
+    width: 50px;
+    overflow: hidden; /* taşanları gizle */
+    white-space: nowrap; /* alt satıra hiç inme */
+    text-overflow: ellipsis; /* eğer uzunsa üç nokta koy */
+}
+#show-more3:target
+{
+    overflow:visible;
+}
+#show-less4.admin:target
+{
+    width: 50px;
+    overflow: hidden; /* taşanları gizle */
+    white-space: nowrap; /* alt satıra hiç inme */
+    text-overflow: ellipsis; /* eğer uzunsa üç nokta koy */
+    
+}
+#show-more4.admin:target
+{
+    max-height: 100%;
+    overflow:visible;
+}
+
+h1{
+    text-align: center;
+    color:blueviolet;
+}
+.admin{
+    color:black;
+    font-size: larger;
+    width: 50px;
+    overflow: hidden; /* taşanları gizle */
+    white-space: nowrap; /* alt satıra hiç inme */
+    text-overflow: ellipsis; /* eğer uzunsa üç nokta koy */
+}
+
+

@@ -1,0 +1,9 @@
+iframe
+{
+    margin-left: 33%;
+    margin-top: 10%;
+}
+body{
+    background-image: url(../../img/background_home.jpg);
+    background-size: cover;
+}

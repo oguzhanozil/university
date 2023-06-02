@@ -1,0 +1,66 @@
+.img{
+    border-radius: 4px;
+    padding: 5px;
+    width:200px;
+    display: block;
+    margin-left: 43%;
+    margin-top: auto;
+
+}
+.show-more-link {
+    position: absolute; /* Position the "show more" link absolutely */
+    bottom: 0; /* Align it at the bottom of the div */
+    left: 0; /* Align it to the left side */
+  }
+a{
+    color:blueviolet;
+}
+.img:hover{
+    transform: scale(1.6);
+}
+body
+{
+    background-image: url(../../img/background_home.jpg);
+    background-size: cover;
+}
+ul
+{
+  color:black;
+  text-align: center;
+  padding: 30px; 
+  list-style-type: none;
+  color:blueviolet;
+}
+.tab-left
+{
+    margin-top: 1px;
+    float:left;
+    width: 200px; 
+    height: 10%; 
+    border:2px outset;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.tab-up
+{
+    width: 99%; 
+    height: 200px; 
+    border:2px inset;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.tab-up>h1
+{
+    color:blueviolet;
+    text-align: center;
+    margin-top: 4.5%;
+}
+.tab-body
+{
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 2px;
+    width: 99%; 
+    height: 80%; 
+    border:2px inset;
+}
+

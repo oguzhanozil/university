@@ -1,0 +1,14 @@
+body
+{
+    background-image: url(../../img/background_home.jpg);
+    background-size: cover;
+}
+ul{
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 10%;
+    color:blueviolet;
+}
+a{
+    color:brown;
+}

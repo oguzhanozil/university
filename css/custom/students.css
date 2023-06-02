@@ -1,0 +1,61 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        
+      }
+      
+      
+      .tab-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: lightgrey;
+        padding: 20px;
+      }
+      div>a{
+        color:blueviolet;
+      }
+      
+      .tab-link {
+        font-size: 18px;
+        font-weight: bold;
+        color: blueviolet;
+        text-decoration: none;
+        padding: 10px;
+      }
+      
+      
+      .subheadings {
+        
+        display: none;
+        position: absolute;
+        background-color: #eee;
+        width: 200px;
+        padding: 20px;
+        margin-top: 10px;
+        
+      }
+      
+      
+      .tab-link:hover + .subheadings {
+        
+        display: block;
+      }
+p{
+  
+  text-align: left;
+}
+h1{
+  color:black;
+}
+h3
+{
+  margin-left: 5%;
+  color:black;
+}
+body{
+  background-image: url(../../img/background_home.jpg);
+  background-size: cover;
+}
